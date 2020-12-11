@@ -13,3 +13,139 @@
 pid: 10644
 hostname: ALS-20201111WFO
 
+2020-12-11 13:53:05,849 ERROR 13344 [-/127.0.0.1/-/16ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:53:13,375 ERROR 13344 [-/127.0.0.1/-/1ms GET /article] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:53:24,957 ERROR 13344 [-/127.0.0.1/-/2ms GET /api/article] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:57:52,913 ERROR 13344 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 14:05:55,902 ERROR 12040 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:129:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\project\\users\\coindataService\\app\\model"
+name: "EPERMError"
+pid: 12040
+hostname: ALS-20201111WFO
+
+2020-12-11 14:06:40,331 ERROR 12040 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:129:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\project\\users\\coindataService\\app\\router"
+name: "EPERMError"
+pid: 12040
+hostname: ALS-20201111WFO
+
+2020-12-11 15:00:10,971 ERROR 8448 [-/127.0.0.1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 8448
+hostname: ALS-20201111WFO
+
+2020-12-11 15:00:53,123 ERROR 3052 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 3052
+hostname: ALS-20201111WFO
+
+2020-12-11 15:01:06,664 ERROR 3052 [-/127.0.0.1/-/1ms GET /pc/api/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 3052
+hostname: ALS-20201111WFO
+
+2020-12-11 17:03:18,759 ERROR 14032 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14032
+hostname: ALS-20201111WFO
+

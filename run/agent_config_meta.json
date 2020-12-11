@@ -1,16 +1,9 @@
 {
-  "session": {
-    "maxAge": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js"
-  },
+  "keys": "D:\\project\\users\\coindataService\\config\\config.default.js",
+  "middleware": "D:\\project\\users\\coindataService\\config\\config.default.js",
   "security": {
-    "domainWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "enable": "D:\\project\\users\\coindataService\\config\\config.default.js",
       "type": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
       "ignoreJSON": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
       "useSession": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
@@ -21,6 +14,9 @@
       "queryName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "D:\\project\\users\\coindataService\\config\\config.default.js",
+    "protocolWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
       "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
       "value": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
@@ -58,6 +54,20 @@
       "ipBlackList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
       "checkAddress": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     }
+  },
+  "cors": {
+    "origin": "D:\\project\\users\\coindataService\\config\\config.default.js",
+    "allowMethods": "D:\\project\\users\\coindataService\\config\\config.default.js"
+  },
+  "jwt": {
+    "secret": "D:\\project\\users\\coindataService\\config\\config.default.js",
+    "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
     "shtml": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
@@ -144,9 +154,16 @@
     "defaultViewEngine": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "mysql": {
+    "default": {
+      "database": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "app": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js",
+    "agent": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js"
+  },
   "env": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "name": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "keys": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "cookies": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "proxy": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "maxIpsCount": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
@@ -166,7 +183,10 @@
     "author": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "license": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "egg": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"

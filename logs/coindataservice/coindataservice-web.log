@@ -13,3 +13,232 @@
 pid: 10644
 hostname: ALS-20201111WFO
 
+2020-12-11 13:53:05,935 ERROR 13344 [-/127.0.0.1/-/16ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:53:13,403 ERROR 13344 [-/127.0.0.1/-/1ms GET /article] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:53:25,004 ERROR 13344 [-/127.0.0.1/-/2ms GET /api/article] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 13:57:52,948 ERROR 13344 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 13344
+hostname: ALS-20201111WFO
+
+2020-12-11 15:00:11,136 ERROR 8448 [-/127.0.0.1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 8448
+hostname: ALS-20201111WFO
+
+2020-12-11 15:00:53,173 ERROR 3052 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 3052
+hostname: ALS-20201111WFO
+
+2020-12-11 15:01:06,695 ERROR 3052 [-/127.0.0.1/-/1ms GET /pc/api/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 3052
+hostname: ALS-20201111WFO
+
+2020-12-11 15:11:43,923 WARN 12544 [-/127.0.0.1/-/3ms GET /pc/api/article] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\project\users\coindataService\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 12544
+hostname: ALS-20201111WFO
+
+2020-12-11 15:57:00,720 WARN 13316 [-/127.0.0.1/-/4ms GET /pc/api/article] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\project\users\coindataService\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 13316
+hostname: ALS-20201111WFO
+
+2020-12-11 15:57:02,251 WARN 13316 [-/127.0.0.1/-/0ms GET /pc/api/article] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\project\users\coindataService\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 13316
+hostname: ALS-20201111WFO
+
+2020-12-11 15:57:08,230 WARN 13316 [-/127.0.0.1/-/0ms GET /pc/api/article] nodejs.UnauthorizedError: No authorization token was found
+    at middleware (D:\project\users\coindataService\node_modules\koa-jwt2\lib\index.js:89:15)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "UnauthorizedError"
+message: "No authorization token was found"
+code: "credentials_required"
+status: 401
+inner: {"message":"No authorization token was found"}
+pid: 13316
+hostname: ALS-20201111WFO
+
+2020-12-11 17:03:34,576 WARN 1312 [-/192.168.0.60/-/9ms POST /pc/api/register] nodejs.SyntaxError: invalid JSON, only supports object and array, check bodyParser config
+    at parse (D:\project\users\coindataService\node_modules\co-body\lib\json.js:55:13)
+    at AsyncFunction.module.exports [as json] (D:\project\users\coindataService\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async parseBody (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:85:19)
+    at async D:\project\users\coindataService\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\project\users\coindataService\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\users\coindataService\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (D:\project\users\coindataService\node_modules\@koa\cors\index.js:98:16)
+status: 400
+body: "123456"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1312
+hostname: ALS-20201111WFO
+
+2020-12-11 17:05:59,353 WARN 1312 [-/192.168.0.60/-/1ms POST /pc/api/register] nodejs.SyntaxError: invalid JSON, only supports object and array, check bodyParser config
+    at parse (D:\project\users\coindataService\node_modules\co-body\lib\json.js:55:13)
+    at AsyncFunction.module.exports [as json] (D:\project\users\coindataService\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async parseBody (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:85:19)
+    at async D:\project\users\coindataService\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\project\users\coindataService\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\users\coindataService\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (D:\project\users\coindataService\node_modules\@koa\cors\index.js:98:16)
+status: 400
+body: "123456"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1312
+hostname: ALS-20201111WFO
+
+2020-12-11 17:06:51,808 WARN 1312 [-/192.168.0.60/-/1ms POST /pc/api/register] nodejs.SyntaxError: invalid JSON, only supports object and array, check bodyParser config
+    at parse (D:\project\users\coindataService\node_modules\co-body\lib\json.js:55:13)
+    at AsyncFunction.module.exports [as json] (D:\project\users\coindataService\node_modules\co-body\lib\json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async parseBody (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:100:14)
+    at async bodyParser (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:85:19)
+    at async D:\project\users\coindataService\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (D:\project\users\coindataService\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\users\coindataService\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (D:\project\users\coindataService\node_modules\@koa\cors\index.js:98:16)
+status: 400
+body: "123456789"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1312
+hostname: ALS-20201111WFO
+

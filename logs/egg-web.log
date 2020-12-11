@@ -1,0 +1,14 @@
+2020-12-11 14:10:10,435 INFO 7648 [egg:logger] init all loggers with options: {"dir":"D:\\project\\users\\coindataService\\logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"coindataservice-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-11 14:10:10,460 INFO 7648 [egg-multipart] stream mode enable
+2020-12-11 14:10:10,543 INFO 7648 [egg-static] starting static serve /public/ -> D:\project\users\coindataService\app\public
+2020-12-11 14:10:10,545 INFO 7648 [egg-security] use csrf middleware
+2020-12-11 14:10:10,546 INFO 7648 [egg-security] use methodnoallow middleware
+2020-12-11 14:10:10,547 INFO 7648 [egg-security] use noopen middleware
+2020-12-11 14:10:10,547 INFO 7648 [egg-security] use nosniff middleware
+2020-12-11 14:10:10,548 INFO 7648 [egg-security] use xssProtection middleware
+2020-12-11 14:10:10,548 INFO 7648 [egg-security] use xframe middleware
+2020-12-11 14:10:10,549 INFO 7648 [egg-security] use dta middleware
+2020-12-11 14:10:10,549 INFO 7648 [egg-security] compose 7 middlewares into one security middleware
+2020-12-11 14:10:10,556 INFO 7648 [egg:core] dump config after load, 4ms
+2020-12-11 14:10:10,567 INFO 7648 [egg-watcher:application] watcher start success
+2020-12-11 14:10:10,574 INFO 7648 [egg:core] dump config after ready, 5ms
