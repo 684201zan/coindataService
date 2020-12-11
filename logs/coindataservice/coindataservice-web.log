@@ -1,0 +1,15 @@
+2020-12-11 10:52:30,903 ERROR 10644 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\project\users\coindataService\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\project\users\coindataService\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\project\users\coindataService\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\project\users\coindataService\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\project\users\coindataService\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 10644
+hostname: ALS-20201111WFO
+

@@ -1,0 +1,10 @@
+2020-12-11 10:52:11,062 INFO 8028 [egg:logger] init all loggers with options: {"dir":"D:\\project\\users\\coindataService\\logs\\coindataservice","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"coindataservice-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-11 10:52:11,074 INFO 8028 [egg:core] dump config after load, 5ms
+2020-12-11 10:52:11,134 INFO 8028 [egg-watcher] Start watching: ["D:\\project\\users\\coindataService\\app","D:\\project\\users\\coindataService\\config","D:\\project\\users\\coindataService\\mocks","D:\\project\\users\\coindataService\\mocks_proxy","D:\\project\\users\\coindataService\\app.js"]
+2020-12-11 10:52:11,134 INFO 8028 [egg-watcher] Start watching: "D:\\project\\users\\coindataService\\app"
+2020-12-11 10:52:11,135 INFO 8028 [egg-watcher] Start watching: "D:\\project\\users\\coindataService\\config"
+2020-12-11 10:52:11,135 INFO 8028 [egg-watcher] Start watching: "D:\\project\\users\\coindataService\\mocks"
+2020-12-11 10:52:11,135 INFO 8028 [egg-watcher] Start watching: "D:\\project\\users\\coindataService\\mocks_proxy"
+2020-12-11 10:52:11,135 INFO 8028 [egg-watcher] Start watching: "D:\\project\\users\\coindataService\\app.js"
+2020-12-11 10:52:11,135 INFO 8028 [egg-watcher:agent] watcher start success
+2020-12-11 10:52:11,210 INFO 8028 [egg:core] dump config after ready, 15ms
