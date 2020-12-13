@@ -22,6 +22,25 @@ module.exports = appInfo => {
         secret: "123456"
     };
 
+    config.mysql={
+        client: {
+            // host
+            host: '148.70.81.229',
+            // 端口号
+            port: '3306',
+            // 用户名
+            user: 'mysqlzp',
+            // 密码
+            password: '684201mysqlzP,',
+            // 数据库名
+            database: 'coindata',
+          },
+          // 是否加载到 app 上，默认开启
+          app: true,
+          // 是否加载到 agent 上，默认关闭
+          agent: false,
+    }
+
 
 
 

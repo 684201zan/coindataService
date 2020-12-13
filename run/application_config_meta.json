@@ -1,285 +1,292 @@
 {
-  "keys": "D:\\project\\users\\coindataService\\config\\config.default.js",
-  "middleware": "D:\\project\\users\\coindataService\\config\\config.default.js",
+  "keys": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+  "middleware": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
   "security": {
     "csrf": {
-      "enable": "D:\\project\\users\\coindataService\\config\\config.default.js",
-      "type": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+      "type": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "D:\\project\\users\\coindataService\\config\\config.default.js",
-    "protocolWhiteList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+    "protocolWhiteList": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "cors": {
-    "origin": "D:\\project\\users\\coindataService\\config\\config.default.js",
-    "allowMethods": "D:\\project\\users\\coindataService\\config\\config.default.js"
+    "origin": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+    "allowMethods": "E:\\team\\userTeam\\coindataService\\config\\config.default.js"
   },
   "jwt": {
-    "secret": "D:\\project\\users\\coindataService\\config\\config.default.js",
-    "enable": "D:\\project\\users\\coindataService\\node_modules\\egg-jwt\\config\\config.default.js"
+    "secret": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+    "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+      "port": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+      "user": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+      "password": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+      "database": "E:\\team\\userTeam\\coindataService\\config\\config.default.js"
+    },
+    "app": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+    "agent": "E:\\team\\userTeam\\coindataService\\config\\config.default.js",
+    "default": {
+      "database": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
   },
   "session": {
-    "maxAge": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\project\\users\\coindataService\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "D:\\project\\users\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\project\\users\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\project\\users\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\project\\users\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\project\\users\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\project\\users\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\project\\users\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\project\\users\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\project\\users\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "D:\\project\\users\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "D:\\project\\users\\coindataService\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\project\\users\\coindataService\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\project\\users\\coindataService\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "mysql": {
-    "default": {
-      "database": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js"
-    },
-    "app": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js",
-    "agent": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql\\config\\config.default.js"
-  },
-  "env": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "env": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "main": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "name": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "dev": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "author": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "egg-jwt": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "egg": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "dir": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "enable": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\config.default.js"
 }

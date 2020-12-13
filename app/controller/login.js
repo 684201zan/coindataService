@@ -14,9 +14,8 @@ class loginController extends Controller{
   async register(){
     const { ctx } = this;
     console.log(ctx.request.body)
-    ctx.body={
-      id:"注册"
-    }
+    const user = await ctx.service.login.insertInfo();
+    ctx.body=user
     ctx.status = 200;
   }
 }
