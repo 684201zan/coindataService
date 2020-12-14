@@ -22,5 +22,57 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pc/api/article",
+    "regexp": "/^\\/pc\\/api\\/article(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pc/api/addArticle",
+    "regexp": "/^\\/pc\\/api\\/addArticle(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pc/api/updateArtice",
+    "regexp": "/^\\/pc\\/api\\/updateArtice(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/pc/api/delArtice",
+    "regexp": "/^\\/pc\\/api\\/delArtice(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
   }
 ]

@@ -4,7 +4,7 @@ module.exports = appInfo => {
     
     config.keys = appInfo.name + '_1570612395695_7299';
     
-    config.middleware = [ 'errorHandler' ];
+    config.middleware = [ 'errorHandler'];
     
     config.security = {
         csrf: {

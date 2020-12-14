@@ -77,7 +77,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\project\\users\\coindataService\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -90,8 +90,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -114,7 +114,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\luotuo\\AppData\\Local\\Temp\\egg-multipart-tmp\\coindataservice",
+      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\coindataservice",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -138,14 +138,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\team\\userTeam\\coindataService\\app\\public",
+      "dir": "D:\\project\\users\\coindataService\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\team\\userTeam\\coindataService\\app\\view",
+      "root": "D:\\project\\users\\coindataService\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -157,7 +157,14 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "host": "148.70.81.229",
+        "port": "3306",
+        "user": "mysqlzp",
+        "password": "<String len: 14>",
+        "database": "coindata"
+      }
     },
     "jwt": {
       "secret": "<String len: 6>",
@@ -167,6 +174,7 @@
       "origin": "*",
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS"
     },
+    "validate": {},
     "env": "local",
     "name": "coindataservice",
     "keys": "<String len: 34>",
@@ -192,15 +200,16 @@
         "egg": "^2.29.1",
         "egg-cors": "^2.2.3",
         "egg-jwt": "^3.1.7",
-        "egg-mysql": "^3.0.0"
+        "egg-mysql": "^3.0.0",
+        "egg-validate": "^2.0.2"
       },
       "devDependencies": {
         "egg-bin": "^4.15.0"
       }
     },
-    "baseDir": "E:\\team\\userTeam\\coindataService",
-    "HOME": "C:\\Users\\luotuo",
-    "rundir": "E:\\team\\userTeam\\coindataService\\run",
+    "baseDir": "D:\\project\\users\\coindataService",
+    "HOME": "C:\\Users\\Administrator",
+    "rundir": "D:\\project\\users\\coindataService\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -232,7 +241,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "E:\\team\\userTeam\\coindataService\\logs\\coindataservice",
+      "dir": "D:\\project\\users\\coindataService\\logs\\coindataservice",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -312,8 +321,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-onerror",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -323,8 +332,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-session",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-session",
       "version": "3.2.0"
     },
     "i18n": {
@@ -334,8 +343,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-i18n",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -345,8 +354,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-watcher",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -358,8 +367,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-multipart",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-multipart",
       "version": "2.10.3"
     },
     "security": {
@@ -371,8 +380,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-security",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "development": {
@@ -386,8 +395,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-development",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -399,8 +408,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-logrotator",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -410,8 +419,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-schedule",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -421,8 +430,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-static",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -434,8 +443,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jsonp",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -445,8 +454,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-view",
+      "from": "D:\\project\\users\\coindataService\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-view",
       "version": "2.1.3"
     },
     "mysql": {
@@ -456,8 +465,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-mysql",
+      "from": "D:\\project\\users\\coindataService\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "jwt": {
@@ -469,8 +478,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-jwt",
+      "from": "D:\\project\\users\\coindataService\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-jwt",
       "version": "3.1.7"
     },
     "cors": {
@@ -480,9 +489,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\team\\userTeam\\coindataService\\config\\plugin.js",
-      "path": "E:\\team\\userTeam\\coindataService\\node_modules\\egg-cors",
+      "from": "D:\\project\\users\\coindataService\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-cors",
       "version": "2.2.3"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\project\\users\\coindataService\\config\\plugin.js",
+      "path": "D:\\project\\users\\coindataService\\node_modules\\egg-validate",
+      "version": "2.0.2"
     }
   }
 }

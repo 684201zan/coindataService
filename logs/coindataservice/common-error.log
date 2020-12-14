@@ -173,3 +173,353 @@ hostname: DESKTOP-06QSCG5
 pid: 14776
 hostname: DESKTOP-06QSCG5
 
+2020-12-14 11:44:15,139 ERROR 2904 [-/192.168.0.60/-/11ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:12:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 2904
+hostname: ALS-20201111WFO
+
+2020-12-14 11:44:15,149 ERROR 2904 nodejs.ReferenceError: ctx is not defined
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:22:7)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 2904
+hostname: ALS-20201111WFO
+
+2020-12-14 11:44:15,153 ERROR 2904 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (D:\project\users\coindataService\node_modules\egg-onerror\app.js:27:20)
+    at Application.emit (events.js:316:20)
+    at D:\project\users\coindataService\app\middleware\error_handler.js:7:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2904
+hostname: ALS-20201111WFO
+
+2020-12-14 11:45:09,172 ERROR 2640 [-/192.168.0.60/-/16ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 2640
+hostname: ALS-20201111WFO
+
+2020-12-14 11:45:09,180 ERROR 2640 nodejs.ReferenceError: ctx is not defined
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:23:7)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 2640
+hostname: ALS-20201111WFO
+
+2020-12-14 11:45:09,184 ERROR 2640 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (D:\project\users\coindataService\node_modules\egg-onerror\app.js:27:20)
+    at Application.emit (events.js:316:20)
+    at D:\project\users\coindataService\app\middleware\error_handler.js:7:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 2640
+hostname: ALS-20201111WFO
+
+2020-12-14 11:46:02,656 ERROR 13712 [-/192.168.0.60/-/13ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 13712
+hostname: ALS-20201111WFO
+
+2020-12-14 11:46:56,743 ERROR 13712 [-/192.168.0.60/-/2ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 13712
+hostname: ALS-20201111WFO
+
+2020-12-14 11:47:00,216 ERROR 13712 [-/192.168.0.60/-/1ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 13712
+hostname: ALS-20201111WFO
+
+2020-12-14 11:47:20,434 ERROR 10288 [-/192.168.0.60/-/19ms POST /pc/api/login] nodejs.TypeError: ctx.validate is not a function
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at D:\project\users\coindataService\node_modules\koa-compose\index.js:36:12
+
+pid: 10288
+hostname: ALS-20201111WFO
+
+2020-12-14 11:51:43,907 ERROR 12632 [-/192.168.0.60/-/24ms POST /pc/api/login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\project\users\coindataService\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\project\users\coindataService\node_modules\egg-validate\app\extend\context.js:14:17)
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:13:11)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at D:\project\users\coindataService\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"account","code":"missing_field"},{"message":"required","field":"password","code":"missing_field"}]
+pid: 12632
+hostname: ALS-20201111WFO
+
+2020-12-14 12:59:33,919 ERROR 1104 nodejs.ClusterClientNoResponseError: client no response in 1275794ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\users\coindataService\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 1104
+hostname: ALS-20201111WFO
+
+2020-12-14 13:22:37,775 ERROR 12096 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (D:\project\users\coindataService\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (D:\project\users\coindataService\node_modules\co\index.js:65:19)
+    at D:\project\users\coindataService\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (D:\project\users\coindataService\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (D:\project\users\coindataService\node_modules\co\index.js:30:15)
+    at LoginService.insertInfo (D:\project\users\coindataService\app\service\login.js:7:43)
+    at loginController.register (D:\project\users\coindataService\app\controller\login.js:78:42)
+
+pid: 12096
+hostname: ALS-20201111WFO
+
+2020-12-14 13:22:37,805 ERROR 12096 nodejs.TypeError: Cannot read property 'error' of undefined
+    at Application.<anonymous> (D:\project\users\coindataService\node_modules\egg-onerror\app.js:27:20)
+    at Application.emit (events.js:316:20)
+    at D:\project\users\coindataService\app\middleware\error_handler.js:7:13
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 12096
+hostname: ALS-20201111WFO
+
+2020-12-14 13:29:34,660 ERROR 14904 [-/192.168.0.60/-/191ms POST /pc/api/login] nodejs.ReferenceError: msg is not defined
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:16:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\project\users\coindataService\app\middleware\error_handler.js:4:9
+    at async D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\project\users\coindataService\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14904
+hostname: ALS-20201111WFO
+
+2020-12-14 13:30:09,496 ERROR 10788 [-/192.168.0.60/-/191ms POST /pc/api/login] nodejs.Error: Expected "payload" to be a plain object.
+    at validate (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:40:11)
+    at validatePayload (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:62:10)
+    at Object.module.exports [as sign] (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:114:7)
+    at AsyncFunction.<computed>.sign (D:\project\users\coindataService\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:16:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\project\users\coindataService\app\middleware\error_handler.js:4:9
+    at async D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 10788
+hostname: ALS-20201111WFO
+
+2020-12-14 13:33:52,252 ERROR 1180 [-/192.168.0.60/-/202ms POST /pc/api/login] nodejs.Error: Expected "payload" to be a plain object.
+    at validate (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:40:11)
+    at validatePayload (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:62:10)
+    at Object.module.exports [as sign] (D:\project\users\coindataService\node_modules\jsonwebtoken\sign.js:114:7)
+    at AsyncFunction.<computed>.sign (D:\project\users\coindataService\node_modules\egg-jwt\app\extend\application.js:24:20)
+    at loginController.index (D:\project\users\coindataService\app\controller\login.js:18:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\project\users\coindataService\app\middleware\error_handler.js:4:9
+    at async D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 1180
+hostname: ALS-20201111WFO
+
+2020-12-14 14:36:03,626 ERROR 10804 [-/192.168.0.60/-/42ms POST /pc/api/addArticle] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\project\users\coindataService\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\project\users\coindataService\node_modules\egg-validate\app\extend\context.js:14:17)
+    at ArticleController.addArticle (D:\project\users\coindataService\app\controller\article.js:26:17)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"blogTitle","code":"missing_field"},{"message":"required","field":"blogContent","code":"missing_field"}]
+pid: 10804
+hostname: ALS-20201111WFO
+
+2020-12-14 14:36:31,964 ERROR 14524 [-/192.168.0.60/-/58ms POST /pc/api/addArticle] nodejs.TypeError: ctx.service.login.addArticle is not a function
+    at ArticleController.addArticle (D:\project\users\coindataService\app\controller\article.js:27:54)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+
+pid: 14524
+hostname: ALS-20201111WFO
+
+2020-12-14 14:37:01,346 ERROR 9088 [-/192.168.0.60/-/65ms POST /pc/api/addArticle] nodejs.ReferenceError: ctx is not defined
+    at ArticleService.addArticle (D:\project\users\coindataService\app\service\article.js:17:21)
+    at ArticleController.addArticle (D:\project\users\coindataService\app\controller\article.js:27:56)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+
+pid: 9088
+hostname: ALS-20201111WFO
+
+2020-12-14 14:37:02,891 ERROR 9088 [-/192.168.0.60/-/48ms POST /pc/api/addArticle] nodejs.ReferenceError: ctx is not defined
+    at ArticleService.addArticle (D:\project\users\coindataService\app\service\article.js:17:21)
+    at ArticleController.addArticle (D:\project\users\coindataService\app\controller\article.js:27:56)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+
+pid: 9088
+hostname: ALS-20201111WFO
+
+2020-12-14 15:21:21,418 ERROR 14200 [-/192.168.0.60/-/21ms POST /pc/api/delArtice] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\project\users\coindataService\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\project\users\coindataService\node_modules\egg-validate\app\extend\context.js:14:17)
+    at ArticleController.delArtice (D:\project\users\coindataService\app\controller\article.js:67:17)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an integer","code":"invalid","field":"blogId"}]
+pid: 14200
+hostname: ALS-20201111WFO
+
+2020-12-14 15:34:02,776 ERROR 14864 [-/192.168.0.60/-/104ms POST /pc/api/updateArtice] nodejs.ReferenceError: delArticle is not defined
+    at ArticleController.updateArtice (D:\project\users\coindataService\app\controller\article.js:56:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:13)
+    at async D:\project\users\coindataService\app\middleware\error_handler.js:4:9
+    at async D:\project\users\coindataService\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\users\coindataService\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\users\coindataService\node_modules\koa-session\index.js:41:7)
+
+pid: 14864
+hostname: ALS-20201111WFO
+
+2020-12-14 16:15:23,509 ERROR 3672 [-/192.168.0.60/-/19ms POST /pc/api/article] nodejs.ReferenceError: app is not defined
+    at ArticleService.findArticle (D:\project\users\coindataService\app\service\article.js:7:22)
+    at ArticleController.index (D:\project\users\coindataService\app\controller\article.js:20:57)
+    at Object.callFn (D:\project\users\coindataService\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\project\users\coindataService\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\project\users\coindataService\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\project\users\coindataService\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+    at next (D:\project\users\coindataService\node_modules\koa-compose\index.js:45:18)
+    at jwtErr (D:\project\users\coindataService\app\middleware\jwt_err.js:10:19)
+    at dispatch (D:\project\users\coindataService\node_modules\koa-compose\index.js:44:32)
+
+pid: 3672
+hostname: ALS-20201111WFO
+
+2020-12-14 17:22:37,431 ERROR 1104 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1104
+hostname: ALS-20201111WFO
+

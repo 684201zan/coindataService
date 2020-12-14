@@ -1,18 +1,16 @@
 const Service=require('egg').Service;
 
 class LoginService extends Service{
+    
     //添加信息
-    async insertInfo(){
-        try {
-            const user = await this.app.mysql.insert('blogUser',{"account":"admin","password":"123456"});
-            console.log(user)
-        } catch (error) {
-            error.message; // "Oops!"
-        }
-        
+    async insertInfo(accountObj){
+        const user = await this.app.mysql.insert('blogUser',accountObj); 
+        return user; 
     }
-    async findUser(){
-
+    //登录信息
+    async findUser(accountObj){
+        const findAccount = await this.app.mysql.get('blogUser', accountObj);
+        return findAccount;
     }
 }
 
