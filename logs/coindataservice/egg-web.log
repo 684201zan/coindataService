@@ -8434,3 +8434,18 @@
 2020-12-14 17:26:07,350 INFO 13928 [egg-watcher:application] watcher start success
 2020-12-14 17:26:07,504 INFO 13928 [egg-mysql] instance[0] status OK, rds currentTime: Mon Dec 14 2020 17:26:56 GMT+0800 (中国标准时间)
 2020-12-14 17:26:07,514 INFO 13928 [egg:core] dump config after ready, 7ms
+2020-12-14 20:48:54,898 INFO 19660 [egg:logger] init all loggers with options: {"dir":"E:\\team\\userTeam\\coindataService\\logs\\coindataservice","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"coindataservice-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-14 20:48:54,939 INFO 19660 [egg-multipart] stream mode enable
+2020-12-14 20:48:54,939 INFO 19660 [egg-mysql] connecting mysqlzp@148.70.81.229:3306/coindata
+2020-12-14 20:48:57,129 INFO 19660 [egg-static] starting static serve /public/ -> E:\team\userTeam\coindataService\app\public
+2020-12-14 20:48:57,133 INFO 19660 [egg-security] use methodnoallow middleware
+2020-12-14 20:48:57,134 INFO 19660 [egg-security] use noopen middleware
+2020-12-14 20:48:57,135 INFO 19660 [egg-security] use nosniff middleware
+2020-12-14 20:48:57,136 INFO 19660 [egg-security] use xssProtection middleware
+2020-12-14 20:48:57,137 INFO 19660 [egg-security] use xframe middleware
+2020-12-14 20:48:57,138 INFO 19660 [egg-security] use dta middleware
+2020-12-14 20:48:57,138 INFO 19660 [egg-security] compose 6 middlewares into one security middleware
+2020-12-14 20:48:57,150 INFO 19660 [egg:core] dump config after load, 4ms
+2020-12-14 20:48:57,177 INFO 19660 [egg-watcher:application] watcher start success
+2020-12-14 20:48:57,479 INFO 19660 [egg-mysql] instance[0] status OK, rds currentTime: Mon Dec 14 2020 20:48:57 GMT+0800 (GMT+08:00)
+2020-12-14 20:48:57,515 INFO 19660 [egg:core] dump config after ready, 7ms
