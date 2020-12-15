@@ -13,17 +13,20 @@ class ArticleService extends Service {
                     offset: offsetData, // 数据偏移量
                 }
                 const row2={
-                    where: {userId:ctx.request.body.userInfo}, // WHERE 条件
+                    userId:ctx.request.body.userInfo, // WHERE 条件
                 }
                 //查询总条数
                 const result1= await this.app.mysql.count('blogName', row2);
-                console.log(result1)
+                
                 //根据分页查询结果
                 const resultPage = await this.app.mysql.select('blogName',row); 
                
-                return {msg:resultPage,total:result1
-                
+                return {
+                    msg:resultPage,
+                    total:result1,
+                    totalPage:Math.ceil(result1/ctx.request.body.pageSize*1)
                 };
+            
             }, ctx);
             return {
                 status:200,
