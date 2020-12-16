@@ -17,25 +17,29 @@ class loginController extends Controller{
           const token=app.jwt.sign({"userId":passwordFlag.userId}, app.config.jwt.secret);
           ctx.body={
             message:"登录成功",
+            status:200,
             token:token
           }
           ctx.status = 200;
         }else{
           ctx.body={
-            message:"密码错误"
+            message:"密码错误",
+            status:201,
           }
           ctx.status = 200;
         }
       }else{
         ctx.body={
-          message:"账户不存在"
+          message:"账户不存在",
+          status:201,
         }
         ctx.status = 200;
       }      
     } catch(err) {
       ctx.logger.error(err);
       ctx.body={
-        message:err||"服务器错误"
+        message:err||"服务器错误",
+        status:500,
       }
       ctx.status = 500;
     }
