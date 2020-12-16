@@ -14,4 +14,14 @@ module.exports= app => {
     router.post('/pc/api/updateArtice',jwtErr,controller.article.updateArtice);
     //删除文章列表
     router.post('/pc/api/delArtice',jwtErr,controller.article.delArtice);
+    
+    //新增文章分类
+    router.post('/pc/api/addclassify',jwtErr,controller.classify.addclassify);
+    //删除文章分类
+    router.post('/pc/api/delclassify',jwtErr,controller.classify.delclassify);
+    //修改文章分类
+    router.post('/pc/api/updateclassify',jwtErr,controller.classify.updateclassify);
+    //文章分类列表
+    router.post('/pc/api/classifyList',jwtErr,controller.classify.index);
+
 };
